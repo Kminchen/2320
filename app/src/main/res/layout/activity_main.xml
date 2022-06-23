@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
+    android:background="#CFEEF7"
     android:gravity="center">
 
     <ImageView
@@ -18,7 +19,7 @@
         android:id="@+id/txv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="點擊開始擲骰子"
         android:textSize="24sp"
         app:layout_constraintTop_toTopOf="parent" />
 
